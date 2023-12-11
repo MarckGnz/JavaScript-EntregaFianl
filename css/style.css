@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: black;
+}
+
+.nav img{
+    width: 125px;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    min-height: calc(120vh - 100px - 300px);
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conTickets{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+}
+
+.tickets{
+    padding: 15px;
+}
+
+.form{
+    width: 50%;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.agregar{
+    background-color: rgb(255, 0, 0);
+    margin: 25px;
+    width: 50%;
+}
+
+.tickets-precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito{
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    width: 250px;
+    background-color: rgb(37, 37, 42);
+    display: flex;
+    justify-content: center;
+}

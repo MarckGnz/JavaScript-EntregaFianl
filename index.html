@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+    <script defer src="./js/formulario.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="./images/logo.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="form">
+            <label for="inputNombre">Nombre</label>
+            <input type="text" id="inputNombre">
+
+            <label for="inputEmail">Email</label>
+            <input type="email" name="email" id="inputEmail">
+
+            <label for="inputEdad">Edad</label>
+            <input type="number" name="edad" id="inputEdad">
+
+            <label for="inputCiudad">Ciudad</label>
+            <input type="text" id="inputCiudad">
+            
+            <button onclick="Enviar()" id="btnEnviar">Enviar</button>
+            <a href="./pages/inicio.html"><button>ia al incio</button></a>
+        </div>
+    </main>
+    <div class="footer">
+        <p>Marcos Javier Rover Genez - Comision #49765</p>
+    </div>
+</body>
+</html>
